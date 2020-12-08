@@ -1,32 +1,9 @@
 html,
-body {
-    margin: 0;
-    padding: 0;
+body,
+#root {
     height: 100%;
 }
 
 #root {
-    height: 100%;
     display: flex;
-    justify-content: center;
-}
-
-.chat-window {
-    display: flex;
-    flex-flow: column;
-    height: 100%;
-}
-
-.chat-window .chat-messages {
-    flex: 1 1 auto;
-    overflow: auto;
-}
-
-.chat-input {
-    border: 1px solid #e0e0e0;
-    border-radius: 2px;
-}
-
-.row {
-    margin-bottom: 0;
 }

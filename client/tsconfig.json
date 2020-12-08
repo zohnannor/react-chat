@@ -1,0 +1,150 @@
+{
+    "compilerOptions": {
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "target": "es5",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "baseUrl": ".",
+        "sourceMap": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "suppressImplicitAnyIndexErrors": true
+        // "noUnusedLocals": true
+    },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+    "exclude": [
+        "node_modules",
+        "build",
+        "scripts",
+        "acceptance-tests",
+        "webpack",
+        "jest",
+        "src/setupTests.ts"
+    ]
+}
+/* 
+Project Options
+allowJs
+checkJs
+composite
+declaration
+declarationMap
+downlevelIteration
+importHelpers
+incremental
+isolatedModules
+jsx
+lib
+module
+noEmit
+outDir
+outFile
+plugins
+removeComments
+rootDir
+sourceMap
+target
+tsBuildInfoFile
+Strict Checks
+alwaysStrict
+noImplicitAny
+noImplicitThis
+strict
+strictBindCallApply
+strictFunctionTypes
+strictNullChecks
+strictPropertyInitialization
+Module Resolution
+allowSyntheticDefaultImports
+allowUmdGlobalAccess
+baseUrl
+esModuleInterop
+moduleResolution
+paths
+preserveSymlinks
+rootDirs
+typeRoots
+types
+Source Maps
+inlineSourceMap
+inlineSources
+mapRoot
+sourceRoot
+Linter Checks
+noFallthroughCasesInSwitch
+noImplicitReturns
+noUncheckedIndexedAccess
+noUnusedLocals
+noUnusedParameters
+Experimental
+emitDecoratorMetadata
+experimentalDecorators
+Command Line
+preserveWatchOutput
+pretty
+Watch Options
+fallbackPolling
+watchDirectory
+watchFile
+
+Advanced
+allowUnreachableCode
+allowUnusedLabels
+assumeChangesOnlyAffectDirectDependencies
+charset
+declarationDir
+diagnostics
+disableReferencedProjectLoad
+disableSizeLimit
+disableSolutionSearching
+disableSourceOfProjectReferenceRedirect
+ 
+emitBOM
+emitDeclarationOnly
+extendedDiagnostics
+forceConsistentCasingInFileNames
+generateCpuProfile
+importsNotUsedAsValues
+jsxFactory
+jsxFragmentFactory
+jsxImportSource
+keyofStringsOnly
+ 
+listEmittedFiles
+listFiles
+maxNodeModuleJsDepth
+newLine
+noEmitHelpers
+noEmitOnError
+noErrorTruncation
+noImplicitUseStrict
+noLib
+noResolve
+ 
+noStrictGenericChecks
+out
+preserveConstEnums
+reactNamespace
+resolveJsonModule
+skipDefaultLibCheck
+skipLibCheck
+stripInternal
+suppressExcessPropertyErrors
+suppressImplicitAnyIndexErrors
+
+*/
