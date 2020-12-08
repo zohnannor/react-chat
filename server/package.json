@@ -6,13 +6,16 @@
     "license": "MIT",
     "private": true,
     "scripts": {
-        "dev": "nodemon ./src/index",
-        "start": "node ./src/index"
+        "watch": "tsc -w",
+        "dev": "nodemon ./dist/index",
+        "start": "node ./build/index",
+        "build": "tsc --outDir ./build"
     },
     "dependencies": {
         "cors": "^2.8.5",
         "express": "^4.17.1",
-        "socket.io": "^3.0.3"
+        "socket.io": "^3.0.3",
+        "typescript": "^4.1.2"
     },
     "devDependencies": {
         "nodemon": "^2.0.6"
